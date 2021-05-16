@@ -7,8 +7,7 @@ import org.openqa.selenium.WebElement;
 
 public class P1_cssSelector_Cybertek {
 
-
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
         //TC #1: PracticeCybertek.com_ForgotPassword WebElement verification
         //1. Open Chrome browser
         WebDriver driver = WebDriverFactory.getDriver("chrome");
@@ -50,8 +49,6 @@ public class P1_cssSelector_Cybertek {
         System.out.println("retrievePasswordButton.isDisplayed() = " + retrievePasswordButton.isDisplayed());
 
         System.out.println("poweredByText.isDisplayed() = " + poweredByText.isDisplayed());
-
-
 
     }
 
