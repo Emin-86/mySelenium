@@ -35,11 +35,13 @@ public class SelectingValueFromDropdown {
              first.selectByIndex(i);
 
          }
+         System.out.println(allLang.getText());
          List<WebElement>list = first.getAllSelectedOptions();
          for (WebElement each : list) {
 
          }
          first.deselectAll();
+
      }
      @AfterClass
     public void closingBrowser(){
